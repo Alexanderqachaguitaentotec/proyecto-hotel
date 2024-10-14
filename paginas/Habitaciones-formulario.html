@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel los corales</title>
+  <link rel="stylesheet" href="..//style/estilo principal.css">
+  <link rel="stylesheet" href="../style/heramias-del-sistemas.css">
+  <link rel="stylesheet" href="../style/estilo-dehabitaciones-formulario.css">
+</head>
+<body>
+  <div class="container">
+<header>
+  <ul class="menu1">
+    <li><a href="../index.html">Cerrar Secion y Regresar a Inicio</a></li>
+    <li><a href="#">Herramietas del Sistema</a>
+      <ul class="submenu">
+        <li><a href="../paginas/inventario.html">Inventario </a></li>
+        <li><a href="../paginas/Personal Del Hotel.html">Personal Del Hotel</a></li>
+        <li><a href="../paginas/Habitaciones-formulario.html">Habitaciones </a></li>
+        <li><a href="../paginas/Ventas.html">Ventas </a></li>
+        <li><a href="../paginas/Facturas.html">Facturas </a></li>
+        <li><a href="../paginas/Gatos.html">Gatos </a></li>
+      </ul>
+      <li><a href="#">Mirar datos ingresados al sistema</a>
+        <ul class="submenu">
+          <li><a href="../paginas/RRegistro.php">Inventario </a></li>
+          <li><a href="../paginas/Registro-personal-del-hotel.php">Trabajadores</a></li>
+          <li><a href="../paginas/Registro-habitaciones-del-hotel-formulario.php">Habitaciones </a></li>
+          <li><a href="../paginas/Registro-ventas-hotel.php">Ventas </a></li>
+          <li><a href="../paginas/Registro-facturas.php">Facturas </a></li>
+          <li><a href="../paginas/Registro-gastos-del-hotel.php">Gatos </a></li>
+        </ul>
+
+      <img class="menu1-imagen-derecha" src="../multimedia/logo-los-corales.png" alt="Imagen del menú">
+   
+    </li>           
+    </ul>
+</header>
+ <main>  
+  <br>
+  <br>
+  <h1 class="titulo-gestion-empresarial">Habitaciones</h1> 
+  <main>
+    
+    <section class="custom-form-container">
+      <form action="Registro-habitaciones-del-hotel-formulario.php" method="POST">
+          <div class="custom-form-group">
+              <label class="custom-label" for="nombre">Nombre:</label>
+              <input class="custom-input" type="text" id="nombre" name="nombre" required>
+          </div>
+
+          <div class="custom-form-group">
+              <label class="custom-label" for="apellido">Apellido:</label>
+              <input class="custom-input" type="text" id="apellido" name="apellido" required>
+          </div>
+
+          <div class="custom-form-group">
+              <label class="custom-label" for="fechaLlegada">Fecha de llegada:</label>
+              <input class="custom-input" type="date" id="fecha-Llegada" name="fecha-Llegada" required>
+          </div>
+
+          <div class="custom-form-group">
+              <label class="custom-label" for="fechaSalida">Fecha de salida:</label>
+              <input class="custom-input" type="date" id="fecha-Salida" name="fecha-Salida" required>
+          </div>
+
+          <div class="custom-form-group">
+              <label class="custom-label" for="numeroHabitacion">Número de habitación (opcional):</label>
+              <input class="custom-input" type="number" id="numeroHabitacion" name="numero-Habitacion">
+          </div>
+
+          <button class="custom-submit-button" type="submit">Enviar</button>
+      </form>
+  </section>
+  <br>
+  <br>
+</main>
+  <footer>
+    <p>Encuéntrenos en:</p>
+    <p>Isla del Morro, Sector El Morro, Tumaco, Nariño, Colombia</p>
+    <p><strong>2022-Hotel Los Corales - Tumaco</strong></p>
+    <p>00 (+57) 317 436 8949<br>(+57) 312 841 1949</p>
+    <p>RNT 15329</p>
+    <p>info@hotelloscorales.com</p>
+  </footer>
+  </div>
+</body>
+</html>
