@@ -1,0 +1,19 @@
+
+
+/* Enlace de reserva */
+.reservation {
+  display: block;
+  text-align: left;
+  margin: 20px auto;
+  text-decoration: none;
+  background-color: #0074d9;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  
+}
+
+
+
+

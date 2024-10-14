@@ -1,0 +1,48 @@
+
+/* Estilo para la imagen */
+.link-image {
+  width: 200px; /* Ajusta el ancho según tus preferencias */
+  height: auto; /* Asegura que la altura se ajuste proporcionalmente al ancho */
+  border: 1px solid #ccc; /* Agrega un borde si lo deseas */
+  border-radius: 4px; /* Redondea las esquinas */
+  display: block; /* Hace que la imagen sea un bloque para alinearla correctamente */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+
+h4{
+    text-align: center;
+}
+/* Estilo para el formulario */
+.form-group1,
+.nueva {
+  margin-bottom: 20px;
+}
+
+/* Estilo para las etiquetas */
+label {
+  font-weight: bold;
+}
+
+/* Estilo para los campos de entrada */
+.form-control,
+.form-control1,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilo para el botón de enviar */
+.btn-primarynueva {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Cambia los colores y estilos según tus preferencias */

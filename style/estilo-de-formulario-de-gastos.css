@@ -1,0 +1,53 @@
+/* Estilo general del formulario */
+.formulario-gastos {
+    width: 600px; /* Ajusta el ancho según tus preferencias */
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Añade bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sutil sombra */
+    font-family: sans-serif; /* Elige una fuente sans-serif que te guste */
+  }
+  
+  /* Estilo para el título del formulario */
+  .formulario-gastos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para los grupos de campos */
+  .campo-gasto {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para las etiquetas */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Estilo para los campos de entrada */
+  input[type="date"],
+  input[type="number"],
+  input[type="file"],
+  select,
+  textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  /* Estilo para el botón de envío */
+  button[type="submit"] {
+    background-color: #007bff; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  

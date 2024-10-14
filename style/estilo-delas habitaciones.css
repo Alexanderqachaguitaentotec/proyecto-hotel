@@ -1,0 +1,99 @@
+.rooms-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas con ancho igual */
+    grid-auto-rows: 1fr; /* Altura automática para cada fila */
+    gap: 20px; /* Espaciado entre las imágenes */
+}
+
+.room {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #cccccc; /* Borde alrededor de cada habitación */
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Centra el contenido de cada habitación */
+}
+
+img {
+    max-width: 100%;
+    height: 40%; /* Establece la altura en píxeles */
+  }
+
+  .room h2 {
+    margin-top: 0; /* Eliminar margen superior del título */
+    margin-bottom: 10px; /* Añadir margen inferior al título */
+  }
+  
+  .room p {
+    margin: 0; /* Eliminar márgenes de los párrafos */
+  }
+  
+  .room .price {
+    margin-bottom: 10px; /* Añadir margen inferior al precio */
+  }
+  
+  .room a {
+    margin-top: 10px; /* Añadir margen superior al enlace */
+  }
+  .room h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .room p {
+    margin: 0;
+  }
+  
+  .room .price {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el botón de reserva */
+  .room a[href="../paginas/RESERVAS.html"] {
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Ajuste de relleno */
+    border: none; /* Eliminar borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    text-decoration: none; /* Eliminar subrayado */
+    cursor: pointer; /* Cambiar cursor a puntero */
+  }
+  
+  .room a[href="../paginas/RESERVAS.html"]:hover { /* Efecto hover */
+    background-color: #0056b3; /* Color de fondo al pasar el cursor */
+  }
+  
+  /* Estilos para el enlace "Leer más" */
+  .room a:last-child { /* 
+    display: inline-block; /* Convertir en bloque en línea */
+    background-color: #f0f0f0; /* Color de fondo */
+    color: #333; /* Color del texto */
+    padding: 8px 12px; /* Ajuste de relleno */
+    border-radius: 5px; /* Esquinas redondeadas */
+    text-decoration: none; /* Eliminar subrayado */
+  }
+  
+  .room a:last-child:hover { /* Efecto hover */
+    background-color: #e0e0e0; /* Color de fondo al pasar el cursor */
+  }
+
+/* Estilos para el botón de reserva */
+.room a[href="../paginas/RESERVAS.html"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80px; /* Ancho del botón */
+  }
+  
+ 
+  
+
+  
+  
+  
+  
+

@@ -1,0 +1,1119 @@
+
+body {
+  margin-top: 0;
+}
+menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.menu-imagen-derecha {
+  float: right;
+  margin-left: 12px;
+  width: 150px;
+  
+}
+
+.menu {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #0f0f0f;
+  font-size: 13.25px;
+  padding: 10px 15px;
+}
+
+.menu li:hover a {
+  background-color: #f7f7fb;
+}
+
+.menu {
+  width: 100%; /* El elemento ocupará el ancho completo de su contenedor */
+  height: 70px; /* Altura del menú */
+}
+
+
+ul.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#007bff;
+}
+
+
+.menu ul li a {
+  text-align: center;
+
+}
+.menu-imagen-derecha {
+  width: 100px;
+  height:67px;
+}
+
+
+
+.submenu {
+  position: absolute;
+  display: none;
+  background-color: #ffffff;;;
+  border: 1px solid #ffffff;;
+  z-index: 1;
+}
+
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+
+.submenu li {
+  display: block;
+  padding: 5px 10px;
+}
+
+.submenu li a {
+  color: #333;
+}
+
+.submenu li a:hover {
+  background-color: #fcfafa;
+
+}
+
+
+
+.menu li:hover .submenu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  
+}
+
+menu {
+  margin-top: 10px;
+}
+
+/* Ajuste para submenús de elementos a la derecha */
+.menu li:last-child .submenu {
+  left: auto;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+
+
+.banner-imagen {
+  width: 100%;  /* Ancho del banner */
+  height: 200px; /* Altura del banner */
+  margin: 0 auto; /* Centrar el banner */
+  padding: 0;
+  top: 0;
+  left: 0;
+  height: auto;
+  z-index: 1;
+ 
+}
+
+.container {
+    background-color:#fff; /* Color de fondo del contenedor */
+    /*border: 1px solid #ee0505; /* Borde del contenedor */
+    padding: 20px; /* Margen interno del contenedor */
+  }
+
+.container {
+    width: 900px; /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la pantalla */
+  }
+  
+  .container {
+    padding: 0;
+  }
+  
+  .titulo-bienvenida {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #0c0c0c;
+    margin: 20px 0;
+
+  }
+  .parrafo-descripcion {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #333;
+    margin: 20px 0;
+  }
+  .imagen1 {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  footer {
+    background-color: #87CEEB;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0 0 10px;
+  }
+  
+  footer strong {
+    font-weight: bold;
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+  .imagen-con-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.imagen-con-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.texto-imagen {
+  background-color: rgb(255, 255, 255);
+  color: rgb(5, 5, 5);
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.responsabilidad-social {
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.responsabilidad-social h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.responsabilidad-social img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.responsabilidad-social p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.responsabilidad-social ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.responsabilidad-social li {
+  margin-bottom: 10px;
+}
+.respo {
+  /* Propiedades para la imagen */
+  max-width: 50%; /* La imagen no será más ancha que el contenedor */
+  height: 50%; /* La altura se ajusta automáticamente */
+  display: block; /* La imagen se muestra como un bloque */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+/* fomulario delogin */
+/* Estilos para el formulario */
+.formulario3 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.formulario3 h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+
+.formulario3 input[type="text"],
+.formulario3 input[type="password"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario3 button[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario3 button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.crear-cuenta {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.crear-cuenta a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* fomulario delogin */
+
+
+* Estilos para el formulario */
+        .login {
+            max-width: 200px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .login h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .login label {
+           
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+        .login input[type="text"],
+        .login input[type="password"] {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 15px;
+          
+            border-radius: 5px;
+        }
+
+        .login button[type="submit"] {
+            width: 40%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .crear-cuenta {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .crear-cuenta a {
+            color: #007bff;
+            text-decoration: none;
+          }
+
+
+
+/* fomulario delogin */
+.parafo-califiquenos {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.parafo-califiquenos p {
+  margin-bottom: 10px;
+}
+
+.parafo-califiquenos a {
+  color: #000;
+  text-decoration: underline;
+}
+.enlaces-imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enlaces-imagenes a {
+  margin: 10px;
+}
+
+.enlaces-imagenes img {
+  width: 100px;
+  height: 100px;
+}
+/* Estilo general */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 20px;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Estilos para las secciones */
+.politicas p {
+  text-align: justify;
+}
+.politicas p {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+
+
+
+
+.informacion-hotel {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
+  margin: 20px auto;
+  padding: 20px;
+ 
+  border-radius: 10px;
+}
+
+.banner-coralitos1 {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+.imagen-juego-arena {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .imagen-juego-arena {
+    max-width: 500px;
+  }
+}
+.juego {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .juego {
+    font-size: 14px;
+  }
+}
+.parrafo-imagen {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 20px;
+  color: #333333;
+}
+
+@media (max-width: 768px) {
+  .parrafo-imagen {
+    font-size: 14px;
+  }
+}
+.imagen-texto {
+  text-align: center;
+}
+.imagen-texto img {
+  width: 600px; /* Ancho fijo de 200 píxeles */
+  height: 400px; /* Altura fija de 150 píxeles */
+}
+
+.imagen-texto p {
+  margin: 10px;
+}
+
+.salones-eventos {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #333333;
+  margin: 20px;
+}
+
+.salones-eventos h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.salones-eventos p {
+  margin-bottom: 10px;
+}
+
+.salones-eventos a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.salones-eventos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.salones-eventos ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.salones-eventos ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.salones-eventos p strong {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .salones-eventos {
+    font-size: 14px;
+  }
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+caption {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+}
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 20px;
+  }
+}
+.zona-humedad, .zona-ejercitarse {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.zonas {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.zonas h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.zonas ul {
+  list-style-type: disc; /* Sets disc bullets for the list items */
+  padding: 0; /* Removes default padding from the list */
+  margin: 0;  /* Removes default margin from the list */
+}
+
+.zonas li {
+  text-align: justify;
+  margin-bottom: 10px; /* Adds spacing between list items */
+}
+
+h5 {
+  font-size: 16px; /* Ajusta el tamaño de la fuente según necesites */
+  font-weight: bold; /* Establece la fuente en negrita */
+  margin-bottom: 10px; /* Agrega un margen inferior */
+}
+.datos-generales {
+  text-align: justify;
+}
+.justificar p, .justificar ul {
+  text-align: justify;
+}
+.entorno {
+  /* Propiedades para la sección */
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.entorno h2 {
+  /* Propiedades para el título */
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.entorno p {
+  /* Propiedades para los párrafos */
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.entorno ul {
+  /* Propiedades para la lista */
+  list-style: none;
+  padding: 0;
+}
+
+.entorno ul li {
+  /* Propiedades para los elementos de la lista */
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.entorno {
+text-align: justify;
+}
+
+.contenedor-secciones {
+  display: flex; /* Muestra las secciones en fila */
+  flex-wrap: wrap; /* Permite que las secciones se ajusten a la pantalla */
+  width: 100%; /* Ancho total del contenedor */
+  margin: 0 auto; /* Centra el contenedor */
+}
+
+.seccion1, .seccion2, .seccion3 {
+  width: 33.33%; /* Ancho de cada sección */
+  min-height: 300px; /* Altura mínima de las secciones */
+  position: relative; /* Posiciona los elementos dentro de la sección */
+  margin: 10px; /* Agrega margen entre las secciones */
+  border: 1px solid #ddd; /* Agrega un borde a las secciones */
+  border-radius: 5px; /* Redondea las esquinas */
+}
+
+.seccion1 img, .seccion2 img, .seccion3 img {
+  width: 100%; /* Ancho total de la imagen */
+  height: 100%; /* Altura total de la imagen */
+  object-fit: cover; /* Ajusta la imagen al tamaño de la sección */
+}
+
+.texto-seccion1, .texto-seccion2, .texto-seccion3 {
+  position: absolute; /* Posiciona el texto dentro de la sección */
+  bottom: 0; /* Alinea el texto al fondo de la sección */
+  left: 0; /* Alinea el texto a la izquierda de la sección */
+  padding: 20px; /* Agrega margen interno al texto */
+  color: #0bd756; /* Color blanco para el texto */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+}
+
+@media (max-width: 768px) {
+  /* Ajusta el diseño para pantallas pequeñas */
+  .contenedor-secciones {
+    flex-direction: column; /* Muestra las secciones una debajo de la otra */
+  }
+  
+  .seccion1, .seccion2, .seccion3 {
+    width: 100%; /* Ancho total de las secciones en pantallas pequeñas */
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+input:focus, select:focus {
+  border-color: #999;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+calificacion {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+.calificacion h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.calificacion p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.calificacion a {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.calificacion a:hover {
+  background-color: #286090;
+}
+
+.calificacion h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.calificacion ul {
+  list-style: none;
+  padding: 0;
+}
+
+.calificacion ul li {
+  margin-bottom: 10px;
+}
+.quienes-somos {
+  text-align: justify; /* Justifica el texto */
+  padding: 1rem; /* Agrega espacio interior */
+  border-radius: 10px; /* Borde redondo */
+}
+
+.quienes-somos h2 {
+  margin-top: 0; /* Elimina el margen superior */
+  margin-bottom: 1rem; /* Margen inferior */
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+.quienes-somos p {
+  font-size: 16px; /* Tamaño de fuente */
+  line-height: 1.5; /* Altura de línea */
+}
+
+.imagen-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imagen-texto img {
+  max-width: 100%;
+}
+
+.imagen-texto p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Estilos para la sección "descripcion" */
+.descripcion {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.descripcion p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.descripcion img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.descripcion strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos específicos para las imágenes */
+.descripcion img[src$=".jpg"],
+.descripcion img[src$=".jpeg"],
+.descripcion img[src$=".png"],
+.descripcion img[src$=".webp"] {
+  /* Estilos adicionales para imágenes */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Estilo para la sección de calificación */
+.calificacion {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para el título principal */
+.calificacion h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilo para los párrafos de texto */
+.calificacion p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Estilo para el enlace de TripAdvisor */
+.calificacion a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.calificacion a:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para la lista de elementos */
+.calificacion ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.calificacion li {
+  font-size: 14px;
+  color: #0a0a0a;
+  margin-bottom: 5px;
+}
+
+/* Estilo para los párrafos finales */
+.calificacion p:last-child {
+  font-style: italic;
+  color: #2114d5;
+}
+
+/* Estilo general para las secciones */
+
+.suite-presidencial {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Títulos */
+
+.suite-presidencial h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Listas */
+
+.suite-presidencial ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.suite-presidencial ul li {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+/* Marcador personalizado para las listas */
+
+.suite-presidencial ul li::before {
+  content: "•";
+  margin-right: 10px;
+  color: #333;
+}
+
+/* Párrafos */
+
+.suite-presidencial p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+/* Ajustes para la sección "Tarifas" */
+
+.tarifas h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Ajustes para la sección "Información adicional" */
+
+.informacion-adicional p {
+  text-align: justify;
+}
+
+/* Media queries para ajustar la visualización en dispositivos móviles */
+
+@media (max-width: 768px) {
+  .suite-presidencial {
+    padding: 10px;
+  }
+
+  .suite-presidencial ul li {
+    margin-bottom: 3px;
+  }
+
+  .suite-presidencial p {
+    margin-bottom: 5px;
+  }
+}
+
+/* Opcional: agregar iconos a las características */
+
+.caracteristicas ul li {
+  display: flex;
+  align-items: center;
+}
+
+.caracteristicas ul li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url("https://www.flaticon.es/");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Ejemplo de iconos */
+
+.caracteristicas ul li:nth-child(1)::before {
+  background-image: url("https://www.elaireacondicionado.com/articulos/significado-de-los-simbolos-del-aire-acondicionado");
+}
+
+.caracteristicas ul li:nth-child(2)::before {
+  background-image: url("https://www.flaticon.es/icono-gratis/agua-caliente_8011180");
+}
+
+.caracteristicas ul li:nth-child(3)::before {
+  background-image: url("https://www.flaticon.com/free-icons/minibar");
+}
+
+.caracteristicas ul li:nth-child(4)::before {
+  background-image: url("https://www.flaticon.com/free-icons/cable-tv");
+}
+
+.caracteristicas ul li:nth-child(5)::before {
+  background-image: url("https://www.flaticon.es/iconos-gratis/wifi");
+}
+
+.caracteristicas ul li:nth-child(6)::before {
+  background-image: url("https://www.flaticon.es/iconos-gratis/energia-hidroelectrica");
+}
+
+/* Agrupar elementos por categoría (opcional) */
+
+.caracteristicas {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.suite-presidencial, .tarifas, .informacion-adicional {
+  text-align: left;
+}
+.suite-presidencial p {
+  text-align: justify;
+}
+
+/* .container {
+  background-image: url(../multimedia/fondo\ 1\ intranet.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}*/
+
+
+
+
+
+
+
+

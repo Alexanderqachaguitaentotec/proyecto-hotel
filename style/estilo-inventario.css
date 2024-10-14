@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #050505;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+ul {
+    background-color: #007bff; /* Ejemplo de color */
+    
+  }
+  
+  .menu1-imagen-derecha {
+    width: 50px; /* Ancho fijo de 100 píxeles */
+    max-width: 50%; /* Ancho máximo del 50% del contenedor */
+  }
+  
+  
+.container {
+width: 800px; /* Ancho del contenedor */
+margin: 0 auto; /* Centra el contenedor en la página */
+padding: 20px; /* Agrega un relleno al contenedor */
+
+}
+
+@media (max-width: 768px) {
+.container {
+width: 100%; /* El contenedor ocupa el ancho completo en pantallas pequeñas */
+}
+}
+
+

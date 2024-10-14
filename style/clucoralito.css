@@ -1,0 +1,33 @@
+
+h1 {
+    color: #0074D9;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #050505;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para las imágenes */
+.imagen-juego-arenaq {
+    max-width: 750%;
+    height: auto;
+    display: block;
+    margin: 21px auto;
+    width: 76%;
+}
+
+/* Estilos para los párrafos */
+.parrafo-imagenq {
+    font-size: 14px;
+    color: #0c0c0c;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+

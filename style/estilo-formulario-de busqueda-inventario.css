@@ -1,0 +1,57 @@
+/* General form styles */
+/* General form styles */
+.form-container {
+    display: flex; /* Arrange forms side-by-side */
+    justify-content: space-between; /* Distribute forms evenly */
+    width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex; /* Enable flexbox for forms */
+    width: 70%; /* Make each form fill half the container */
+    padding: 10px;
+    border: none; /* Remove default form border */
+  }
+  
+  /* Labels */
+  label {
+    flex: 1; /* Make labels take up equal space */
+    margin-bottom: 5px;
+    text-align: left; /* Align labels to the left */
+    font-weight: bold; /* Make labels bolder */
+  }
+  
+  /* Input fields */
+  input[type="text"] {
+    flex: 2; /* Adjust width as needed */
+    padding: 10px; /* Adjust padding for spacing */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Adjust border radius for rounded corners */
+    font-size: 16px; /* Adjust font size for readability */
+  }
+  
+  /* Buttons */
+  button[type="submit"] {
+    background-color: #007bff;; /* Green color */
+    color: white;
+    padding: 10px 20px; /* Adjust padding for button size */
+    border: none;
+    border-radius: 5px; /* Adjust border radius for rounded corners */
+    cursor: pointer;
+    margin-left: 10px; /* Add space to the left of the button */
+    font-size: 16px; /* Adjust font size for readability */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #007bff;; /* Darker green on hover */
+  }
+  
+  /* Placeholders */
+  input[type="text"]::placeholder {
+    color: #999; /* Gray out placeholder text */
+  }
+  

@@ -1,0 +1,189 @@
+/* Estilos generales del menú */
+.menu1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #007bff;
+    z-index: 10;
+  }
+  .menu1 li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu1 li a {
+    text-decoration: none;
+    color: #0f0f10;
+    font-size: 13.25px;
+    padding: 10px 15px;
+  }
+  
+  .menu1 li:hover a {
+    background-color: #ffffff;
+  }
+  
+  /* Estilos para la imagen logo */
+  .menu1-imagen-derecha {
+    float: right;
+    margin-left: 100px;
+    width: 90px;
+    height: 50px;
+  }
+
+
+  .imagen-herramientas {
+    /* Propiedades CSS para la imagen */
+    max-width: 200%; /* Ancho máximo */
+    margin: 0 auto; /* Centrar la imagen */
+    display: block; /* Mostrar la imagen como bloque */
+   /* border: 1px solid #ccc; /* Borde alrededor de la imagen */
+    padding: 5px; /* Relleno alrededor de la imagen */
+  }
+  
+  .menu1 {
+    /* display: flex; */
+    justify-content: center;
+    width: 100%; /* Ajusta el ancho del menú */
+    
+  }
+  
+  menu {
+    margin-top: 10px;
+  }
+  .menu1 li {
+    text-align: center;
+  }
+  ul.menu1 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .menu1 li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative; /* Añade posición relativa al elemento padre */
+    top: 10px; /* Ajusta el valor según tu necesidad */
+}  
+  /* Estilos para los submenús */
+  .submenu {
+    position: absolute;
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 9px;
+     
+  }
+  
+  .menu1 li:hover .submenu {
+    display: block;
+    visibility: visible;
+    opacity: 19;
+  }
+  
+  .submenu li {
+    display: block;
+    padding: 5px 10px;
+  }
+  
+  .submenu li a {
+    color: #333;
+  }
+  
+  .submenu li a:hover {
+    background-color: #666666;
+  }
+  
+  .submenu {
+    margin-left: 10px; /* Ajusta el valor según la distancia deseada */
+  }
+  
+  
+  Ajuste para submenús de elementos a la derecha *
+  .menu1 li:last-child .submenu {
+    left: auto;
+    right: 50%;
+    transform: translateX(50%);
+  }
+ 
+  .submenu {
+    justify-content: space-between;
+    width: auto;
+
+    
+    overflow: hidden;
+  }
+  
+  .submenu li {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #080808;
+    border-bottom-left-radius: 00;
+  }
+  .titulo-gestion-empresarial {
+    /* Propiedades CSS para el título */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    font-size: 2em; /* Tamaño de letra */
+    font-weight: bold; /* Peso de la letra */
+    text-align: center; /* Alineación del texto */
+    color: #000; /* Color del texto */
+    margin: 10px 0; /* Márgenes alrededor del título */
+    padding: 5px 10px; /* Relleno alrededor del título */
+    border-bottom: 1px solid #3708f3; /* Borde inferior del título */
+  }
+
+
+
+  
+  
+  /* Estilo para centrar el menú */
+.menu1 {
+ /*  display: flex; Activar el diseño flexbox */
+  /* justify-content: center; /* Centrar horizontalmente */ */
+ /*  align-items: center; /* Centrar verticalmente */ */
+  margin: 0 auto; /* Eliminar márgenes predeterminados y centrar en el contenedor padre */
+}
+
+/* Estilo para el menú desplegable */
+.submenu {
+  display: none; /* Ocultar el submenu por defecto */
+  position: absolute; /* Posicionar el submenu de forma absoluta */
+  left: 0; /* Alinear el submenu a la izquierda del elemento padre */
+  top: 100%; /* Posicionar el submenu debajo del elemento padre */
+  background-color: #f9f9f9; /* Color de fondo del submenu */
+  padding: 0; /* Eliminar el relleno predeterminado */
+  list-style: none; /* Eliminar las viñetas predeterminadas */
+  z-index: 1; /* Asegurarse de que el submenu esté sobrepuesto a otros elementos */
+}
+
+/* Estilo para los elementos del menú desplegable */
+.submenu li {
+  margin: 0; /* Eliminar el margen predeterminado */
+  padding: 10px; /* Agregar relleno a los elementos del submenu */
+}
+
+/* Estilo para los enlaces del menú desplegable */
+.submenu a {
+  color: #333; /* Color del texto de los enlaces */
+  text-decoration: none; /* Eliminar la decoración del texto */
+  display: block; /* Ocupar todo el ancho del elemento */
+}
+
+/* Estilo para cuando el cursor se posa sobre un elemento del menú principal */
+.menu1 li:hover .submenu {
+  display: block; /* Mostrar el submenu al pasar el cursor sobre un elemento */
+}
+/* Estilo para centrar el texto del menú principal */
+.menu1 li a {
+  text-align: center; /* Centrar el texto horizontalmente */
+  display: inline-block; /* Mantener el texto en línea mientras se centra */
+  vertical-align: middle; /* Centrar el texto verticalmente */
+}
+
+
+  
+  

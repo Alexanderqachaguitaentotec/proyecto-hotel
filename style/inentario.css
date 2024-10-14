@@ -1,0 +1,46 @@
+.titulo-gestion-empresarial {
+    /* Propiedades CSS para el título */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    font-size: 2em; /* Tamaño de letra */
+    font-weight: bold; /* Peso de la letra */
+    text-align: center; /* Alineación del texto */
+    color: #000; /* Color del texto */
+    margin: 10px 0; /* Márgenes alrededor del título */
+    padding: 5px 10px; /* Relleno alrededor del título */
+    border-bottom: 1px solid #3708f3; /* Borde inferior del título */
+  }
+  /* Estilo para el formulario */
+form {
+    /* Centrar el formulario horizontalmente */
+    margin: 0 auto;
+    width: 300px; /* Ajustar el ancho según sea necesario */
+    border: 1px solid #ddd; /* Agregar un borde delgado */
+    padding: 20px; /* Agregar un poco de relleno dentro del formulario */
+    border-radius: 5px; /* Agregar esquinas redondeadas */
+  }
+  
+  /* Estilo para las etiquetas */
+  label {
+    display: block; /* Hacer que las etiquetas aparezcan en líneas separadas */
+    margin-bottom: 5px; /* Agregar un poco de espacio entre las etiquetas y las entradas */
+  }
+  
+  /* Estilo para los campos de entrada */
+  input[type="text"],
+  input[type="number"] {
+    width: 90%; /* Hacer que las entradas sean de ancho completo */
+    padding: 10px; /* Agregar relleno para una mejor experiencia de usuario */
+    border: 1px solid #ccc; /* Agregar un borde delgado a las entradas */
+    border-radius: 3px; /* Agregar esquinas redondeadas a las entradas */
+  }
+  
+  /* Estilo para el botón de enviar */
+  input[type="submit"] {
+    background-color:#007bff; /* Color de fondo verde para el botón de enviar */
+    color: white;
+    padding: 10px 20px; /* Agregar relleno para el botón */
+    border: none; /* Eliminar el borde predeterminado del botón */
+    border-radius: 5px; /* Agregar esquinas redondeadas al botón */
+    cursor: pointer; /* Cambiar el cursor a puntero al pasar el mouse */
+  }
+  
